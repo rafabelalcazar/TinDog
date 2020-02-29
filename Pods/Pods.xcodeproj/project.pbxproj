@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CFFBD55760461439DCD2E287895CF0C /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FB8112F7A637A988B1546DC49E834F /* Animations.swift */; };
+		12FA6E1F612F874FCD68C3767C93726E /* Pods-TinDog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F842AF5BCD9BE42A6570A5EFD018024 /* Pods-TinDog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D796693C82C88B236B517CC3BF3DD81 /* RevealingSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = BB35D7B87DEC17877D5DF91D4E50C57E /* RevealingSplashView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		334B4420C1D35AB5E97786B7EC59AF53 /* SplashAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCAF2EAD657790506754D67562720EE /* SplashAnimatable.swift */; };
+		345301588CE2D5818996472BA109A6B2 /* RevealingSplashView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E862CED369B320225C56FFE8D265B1 /* RevealingSplashView-dummy.m */; };
+		5FA560E5495C8F85A5D665CE57262AA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		770168DE52B4855A94437E5EB527EC84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		776C8675E6F20EE4F8C7D7344D670BB1 /* SplashAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1E8FF4273B7801F61A12F7C0033813 /* SplashAnimationType.swift */; };
+		941CF8600D86F37CEF165DA6E7F3134A /* RevealingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1853A81B7960BDA0EF56FE69431B5E /* RevealingSplashView.swift */; };
+		F5314F2BB4EBA2C5AC7C3EFB485C16DD /* RevealingSplashView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80BA22FA68FC89064C68294C8F0AE5C5 /* RevealingSplashView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F879FA961C4CCBA72338F4AA6CA9E4F9 /* Pods-TinDog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5875B45D1BEBA12DE6FF88B5254B9D52 /* Pods-TinDog-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2020425C83D16D55DB3BF03AA96C8B53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A16BB753FC705C22DAFCD8B7C1071A09;
+			remoteInfo = RevealingSplashView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C807E6687CA03F2B8CEDA41A08477 /* RevealingSplashView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-prefix.pch"; sourceTree = "<group>"; };
+		0E52631AFBAE3FA77802DF7E86841B21 /* Pods-TinDog-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinDog-acknowledgements.plist"; sourceTree = "<group>"; };
+		26E68AB72547F7853E38AE854F3DB7CE /* Pods-TinDog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinDog.release.xcconfig"; sourceTree = "<group>"; };
+		285C163241981FB673CC2FE70BD9E6B1 /* RevealingSplashView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevealingSplashView.debug.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4D3CB690203950EA77469EB162E4DFB9 /* RevealingSplashView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RevealingSplashView-Info.plist"; sourceTree = "<group>"; };
+		4F842AF5BCD9BE42A6570A5EFD018024 /* Pods-TinDog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TinDog-umbrella.h"; sourceTree = "<group>"; };
+		5875B45D1BEBA12DE6FF88B5254B9D52 /* Pods-TinDog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinDog-dummy.m"; sourceTree = "<group>"; };
+		5A1853A81B7960BDA0EF56FE69431B5E /* RevealingSplashView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RevealingSplashView.swift; path = RevealingSplashView/RevealingSplashView.swift; sourceTree = "<group>"; };
+		6309121F500C0050AEE6F3AF3B3D3A59 /* Pods-TinDog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinDog.debug.xcconfig"; sourceTree = "<group>"; };
+		6BCAF2EAD657790506754D67562720EE /* SplashAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimatable.swift; path = RevealingSplashView/SplashAnimatable.swift; sourceTree = "<group>"; };
+		785747E469F593FF3D3D6987D260F295 /* RevealingSplashView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RevealingSplashView.modulemap; sourceTree = "<group>"; };
+		7B2B031A16CC8082A0DCF7A560478825 /* Pods-TinDog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinDog-Info.plist"; sourceTree = "<group>"; };
+		80BA22FA68FC89064C68294C8F0AE5C5 /* RevealingSplashView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-umbrella.h"; sourceTree = "<group>"; };
+		829B337C81F3FBF1FA5128F0EB2F27FB /* Pods_TinDog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TinDog.framework; path = "Pods-TinDog.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99068E4DBFE2F83B2DA87181CCAE4A43 /* RevealingSplashView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevealingSplashView.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3FB8112F7A637A988B1546DC49E834F /* Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animations.swift; path = RevealingSplashView/Animations.swift; sourceTree = "<group>"; };
+		BA1E8FF4273B7801F61A12F7C0033813 /* SplashAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimationType.swift; path = RevealingSplashView/SplashAnimationType.swift; sourceTree = "<group>"; };
+		BB35D7B87DEC17877D5DF91D4E50C57E /* RevealingSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevealingSplashView.h; path = RevealingSplashView/RevealingSplashView.h; sourceTree = "<group>"; };
+		BB8D2F59CB1CE0C0C4EC9392D4F01AB0 /* Pods-TinDog-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TinDog-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD56534C888FE385363934C9ABE6E7B4 /* RevealingSplashView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RevealingSplashView.framework; path = RevealingSplashView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39756428E97843663B92874113D3507 /* Pods-TinDog-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TinDog-frameworks.sh"; sourceTree = "<group>"; };
+		C6E862CED369B320225C56FFE8D265B1 /* RevealingSplashView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevealingSplashView-dummy.m"; sourceTree = "<group>"; };
+		C8AC782801F3803BBE13A35F21E5546F /* Pods-TinDog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TinDog.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BE67A0AC9ED64ECFCF42D5ABC8B34A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA560E5495C8F85A5D665CE57262AA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B759B2C53D4AFDA53541B04006E90D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770168DE52B4855A94437E5EB527EC84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		206B2FDB5CDEE08F33E7108209298F86 /* RevealingSplashView */ = {
+			isa = PBXGroup;
+			children = (
+				B3FB8112F7A637A988B1546DC49E834F /* Animations.swift */,
+				BB35D7B87DEC17877D5DF91D4E50C57E /* RevealingSplashView.h */,
+				5A1853A81B7960BDA0EF56FE69431B5E /* RevealingSplashView.swift */,
+				6BCAF2EAD657790506754D67562720EE /* SplashAnimatable.swift */,
+				BA1E8FF4273B7801F61A12F7C0033813 /* SplashAnimationType.swift */,
+				FCA2F58C63A5E8A98CF4C969B062FF80 /* Support Files */,
+			);
+			name = RevealingSplashView;
+			path = RevealingSplashView;
+			sourceTree = "<group>";
+		};
+		4AA12F0BE7E0D48CE0EEA588D0A1000D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				206B2FDB5CDEE08F33E7108209298F86 /* RevealingSplashView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4AA12F0BE7E0D48CE0EEA588D0A1000D /* Pods */,
+				F4E2666B4D1CAA70ABD39276C411CEC6 /* Products */,
+				D0786AF7CFC7619A4FB97DD3B7C819C8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0786AF7CFC7619A4FB97DD3B7C819C8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E530DBC5C8FDF297F8074FDDF5F51214 /* Pods-TinDog */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E530DBC5C8FDF297F8074FDDF5F51214 /* Pods-TinDog */ = {
+			isa = PBXGroup;
+			children = (
+				C8AC782801F3803BBE13A35F21E5546F /* Pods-TinDog.modulemap */,
+				BB8D2F59CB1CE0C0C4EC9392D4F01AB0 /* Pods-TinDog-acknowledgements.markdown */,
+				0E52631AFBAE3FA77802DF7E86841B21 /* Pods-TinDog-acknowledgements.plist */,
+				5875B45D1BEBA12DE6FF88B5254B9D52 /* Pods-TinDog-dummy.m */,
+				C39756428E97843663B92874113D3507 /* Pods-TinDog-frameworks.sh */,
+				7B2B031A16CC8082A0DCF7A560478825 /* Pods-TinDog-Info.plist */,
+				4F842AF5BCD9BE42A6570A5EFD018024 /* Pods-TinDog-umbrella.h */,
+				6309121F500C0050AEE6F3AF3B3D3A59 /* Pods-TinDog.debug.xcconfig */,
+				26E68AB72547F7853E38AE854F3DB7CE /* Pods-TinDog.release.xcconfig */,
+			);
+			name = "Pods-TinDog";
+			path = "Target Support Files/Pods-TinDog";
+			sourceTree = "<group>";
+		};
+		F4E2666B4D1CAA70ABD39276C411CEC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				829B337C81F3FBF1FA5128F0EB2F27FB /* Pods_TinDog.framework */,
+				BD56534C888FE385363934C9ABE6E7B4 /* RevealingSplashView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA2F58C63A5E8A98CF4C969B062FF80 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				785747E469F593FF3D3D6987D260F295 /* RevealingSplashView.modulemap */,
+				C6E862CED369B320225C56FFE8D265B1 /* RevealingSplashView-dummy.m */,
+				4D3CB690203950EA77469EB162E4DFB9 /* RevealingSplashView-Info.plist */,
+				089C807E6687CA03F2B8CEDA41A08477 /* RevealingSplashView-prefix.pch */,
+				80BA22FA68FC89064C68294C8F0AE5C5 /* RevealingSplashView-umbrella.h */,
+				285C163241981FB673CC2FE70BD9E6B1 /* RevealingSplashView.debug.xcconfig */,
+				99068E4DBFE2F83B2DA87181CCAE4A43 /* RevealingSplashView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RevealingSplashView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5AC4CA394125D6504D668CBEA4AEFB57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5314F2BB4EBA2C5AC7C3EFB485C16DD /* RevealingSplashView-umbrella.h in Headers */,
+				2D796693C82C88B236B517CC3BF3DD81 /* RevealingSplashView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E1B33B78FCF3A58FD122B9D223F6F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FA6E1F612F874FCD68C3767C93726E /* Pods-TinDog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A16BB753FC705C22DAFCD8B7C1071A09 /* RevealingSplashView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0EF856EB00AD6466ED18368545F7459 /* Build configuration list for PBXNativeTarget "RevealingSplashView" */;
+			buildPhases = (
+				5AC4CA394125D6504D668CBEA4AEFB57 /* Headers */,
+				1F38E196797C73D328B4B719F776DF0E /* Sources */,
+				B759B2C53D4AFDA53541B04006E90D81 /* Frameworks */,
+				A806A1901A533170B0EEC9017A39D069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevealingSplashView;
+			productName = RevealingSplashView;
+			productReference = BD56534C888FE385363934C9ABE6E7B4 /* RevealingSplashView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8A3425C754F9E1E9B20822896D9351C /* Pods-TinDog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF8B62AF5CD8B57F9E1E95D100FC6F8 /* Build configuration list for PBXNativeTarget "Pods-TinDog" */;
+			buildPhases = (
+				87E1B33B78FCF3A58FD122B9D223F6F5 /* Headers */,
+				A3011B0ECC2381AEEF6D80DE79285C97 /* Sources */,
+				3BE67A0AC9ED64ECFCF42D5ABC8B34A0 /* Frameworks */,
+				EB50567A243FD9855FC8464199FF1AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				949FFBA9E14F78BF4E11874497464FC4 /* PBXTargetDependency */,
+			);
+			name = "Pods-TinDog";
+			productName = "Pods-TinDog";
+			productReference = 829B337C81F3FBF1FA5128F0EB2F27FB /* Pods_TinDog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F4E2666B4D1CAA70ABD39276C411CEC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8A3425C754F9E1E9B20822896D9351C /* Pods-TinDog */,
+				A16BB753FC705C22DAFCD8B7C1071A09 /* RevealingSplashView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A806A1901A533170B0EEC9017A39D069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB50567A243FD9855FC8464199FF1AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F38E196797C73D328B4B719F776DF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFFBD55760461439DCD2E287895CF0C /* Animations.swift in Sources */,
+				345301588CE2D5818996472BA109A6B2 /* RevealingSplashView-dummy.m in Sources */,
+				941CF8600D86F37CEF165DA6E7F3134A /* RevealingSplashView.swift in Sources */,
+				334B4420C1D35AB5E97786B7EC59AF53 /* SplashAnimatable.swift in Sources */,
+				776C8675E6F20EE4F8C7D7344D670BB1 /* SplashAnimationType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3011B0ECC2381AEEF6D80DE79285C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F879FA961C4CCBA72338F4AA6CA9E4F9 /* Pods-TinDog-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		949FFBA9E14F78BF4E11874497464FC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RevealingSplashView;
+			target = A16BB753FC705C22DAFCD8B7C1071A09 /* RevealingSplashView */;
+			targetProxy = 2020425C83D16D55DB3BF03AA96C8B53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3701F1C15F937E45022657FD5AB3A793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285C163241981FB673CC2FE70BD9E6B1 /* RevealingSplashView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
+				PRODUCT_MODULE_NAME = RevealingSplashView;
+				PRODUCT_NAME = RevealingSplashView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A601688AE65AA8B1E294C065C05366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6309121F500C0050AEE6F3AF3B3D3A59 /* Pods-TinDog.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TinDog/Pods-TinDog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinDog/Pods-TinDog.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7BEC699ABFDADC58C05F2EF32F28D405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99068E4DBFE2F83B2DA87181CCAE4A43 /* RevealingSplashView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
+				PRODUCT_MODULE_NAME = RevealingSplashView;
+				PRODUCT_NAME = RevealingSplashView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A357278D95EF768725C08F5EA39240A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E68AB72547F7853E38AE854F3DB7CE /* Pods-TinDog.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TinDog/Pods-TinDog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinDog/Pods-TinDog.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF8B62AF5CD8B57F9E1E95D100FC6F8 /* Build configuration list for PBXNativeTarget "Pods-TinDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A601688AE65AA8B1E294C065C05366F /* Debug */,
+				A357278D95EF768725C08F5EA39240A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0EF856EB00AD6466ED18368545F7459 /* Build configuration list for PBXNativeTarget "RevealingSplashView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3701F1C15F937E45022657FD5AB3A793 /* Debug */,
+				7BEC699ABFDADC58C05F2EF32F28D405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
